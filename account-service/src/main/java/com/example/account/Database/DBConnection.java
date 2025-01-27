@@ -5,7 +5,7 @@ import java.sql.*;
 public class DBConnection {
 
 
-    final String url = "jdbc:sqlserver://demo-bank.database.windows.net:1433;database=demoBank;user=rootBank@demo-bank;password={r00tBank123!};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30";
+    final String url = "DB URL";
 
     public void testConnection() throws SQLException {
         Connection conn = DriverManager.getConnection(url);
