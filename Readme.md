@@ -1,7 +1,7 @@
 # Antes de comenzar
 
 El siguiente documento es un instructivo básico para poder realizar las debidas validaciones para el proyecto de prueba técnica realizado.
-
+Este proyecto fue desarrollado con **Java 11.**
 
 ## Descargar el proyecto.
 
@@ -28,10 +28,6 @@ Para obtener el token necesario, ambos microservicios incluyen un endpoint el cu
 **Endpoint:** http://localhost:8081/user?user=fabio&password=123
 
 **Importante**: para la comunicación entre microservicios no se incluyó el obtener el token de manera automática, así que se debe obtener el token mediante el endpoint indicado en el servicio de **Accounts** e ir a actualizarlo en el archivo **TransactionServiceImpl** del servicio Transaction en la línea 24.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
 # Documentación
