@@ -1,0 +1,1 @@
+#logback.classic pattern: [%thread] %highlight(%-5level) %cyan(%logger{15}) -%kvp -%msg %n

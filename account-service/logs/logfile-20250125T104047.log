@@ -1,0 +1,4 @@
+#logback.classic pattern: %msg%n
+Starting AccountApplication using Java 11.0.26 on DESKTOP-D0E9Q6E with PID 15284 (C:\Users\Techzilla\IdeaProjects\demoBank\account-service\target\classes started by Techzilla in C:\Users\Techzilla\IdeaProjects\demoBank\account-service)
+No active profile set, falling back to 1 default profile: "default"
+Started AccountApplication in 2.401 seconds (JVM running for 3.749)
